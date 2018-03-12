@@ -54,7 +54,7 @@
 	<h3><img class="iconocon" src="img/icono-telefono.png" width="50" height="50" alt="">Teléfono:</h3>
 	<p>625 107 135</p>
 	<h3><img class="iconocon" src="img/icono-email.png" width="50" height="50" alt="">E-mail:</h3>
-	<p><script type="text/javascript">mkm('info','castanae','es','')</script></p>
+	<p><script type="text/javascript">mkm('castanaegalicia','gmail','com','')</script></p>
 	</div>
 
 	<div id="contact2">
@@ -88,7 +88,7 @@ $(document).ready(function() {
 	<div id="pie3">
 		<p>Teléfono: 625 107 135</p>
 		<p>&nbsp;</p>
-		<p><script type="text/javascript">mkm('info','castanae','es','')</script></p>
+		<p><script type="text/javascript">mkm('castanaegalicia','gmail','com','')</script></p>
 	</div>
 	<div class="dclear"></div>
 </div>

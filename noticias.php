@@ -103,7 +103,7 @@ $(document).ready(function() {
 	<div id="pie3">
 		<p>Tel�fono: 625 107 135</p>
 		<p>&nbsp;</p>
-		<p><script type="text/javascript">mkm('info','castanae','es','')</script></p>
+		<p><script type="text/javascript">mkm('castanaegalicia','gmail','com','')</script></p>
 	</div>
 	<div class="dclear"></div>
 </div>

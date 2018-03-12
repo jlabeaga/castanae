@@ -148,9 +148,9 @@ $(document).ready(function() {
 		<p><a href="aviso_legal.php">Aviso legal</a></p>
 	</div>
 	<div id="pie3">
-		<p>Telï¿½fono: 625 107 135</p>
+		<p>Teléfono: 625 107 135</p>
 		<p>&nbsp;</p>
-		<p><script type="text/javascript">mkm('info','castanae','es','')</script></p>
+		<p><script type="text/javascript">mkm('castanaegalicia','gmail','com','')</script></p>
 	</div>
 	<div class="dclear"></div>
 </div>
