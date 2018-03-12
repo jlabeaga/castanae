@@ -1,0 +1,249 @@
+#wrapper {              
+	width: 898px;
+	border: none;
+	-webkit-user-select: none;
+	margin: 0 0 0 1px;
+	/*border-bottom: 1px dotted red;*/
+}
+      
+#ep1{
+	position:absolute;
+	left: 36px;
+	top: 50px; 
+}
+
+.otherExample{ 
+	position: absolute;
+	left: 36px;
+	top: 520px;
+}
+
+.otherExample a{ 
+	display: block;
+	float: left;
+	margin-right: 16px;
+	color: #0066FF;
+}    
+
+.otherExample a:hover{ 
+	color: #B22222;
+	text-decoration: underline;
+}
+
+#banner{   
+	position: absolute;
+}     
+
+.oneByOne1{
+	/*top: 80px;
+	left: 36px;*/
+	top: 0;
+	left: 0; 
+	margin: 0;
+	padding: 0;
+	/*width: 960px;
+	height: 420px;*/
+	width: 898px;
+	height: 360px;
+	background-color: #FFFFFF;    
+	position: relative;
+	overflow: hidden;
+}   
+
+#banner .oneByOne_item{
+	position: absolute;
+	width: 898px;
+	/*
+	height: 360px;  
+	*/
+	height: 360px;  
+	overflow: hidden;  
+}         
+                      
+#banner .oneByOne_item span{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", helvetica, verdana, arial, sans-serif;
+}                                                                                              
+
+#banner .oneByOne_item a{
+	text-decoration: none;
+	color: #B22222;
+}
+              
+#banner a img {
+	border: none;
+}
+
+#banner a {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* slide 1 */
+#banner img.ndx1i {
+	position: absolute;
+	top: 30px;
+	left: 60px;
+}
+
+#banner .ndx1a {
+	position: relative;
+	float: left;
+	margin: 200px 0 0 400px;
+	font-size: 48px;
+	font-weight: bold;
+	color: #9B0000;	
+}
+
+#banner .ndx1b {              
+	clear: left;
+	position: relative;
+	float: left;
+	margin: 30px 0 0 420px;
+	font-size: 28px;
+	color: #666666;
+}             
+
+/* slide 2 */
+#banner .ndx2i {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	/*
+	width: 100%;
+	*/
+}
+
+#banner .ndx2a {
+	clear: left;
+	position: relative;
+	float: left;
+	/*
+	margin: 250px 0 0 190px;    
+	*/
+	margin: 250px 0 0 190px;    
+	font-size: 42px;
+	text-shadow: 2px 2px 0 #252525;
+	color: #FFFFFF;
+}
+
+#banner .ndx2b {
+	clear: left;
+	position: relative;
+	float: left;
+	margin: 20px 0 0 220px;    
+	font-size: 32px;
+	text-shadow: 2px 2px 0 #252525;
+	color: #FFFFFF;
+}                     
+  
+/* slide 3 */
+#banner .ndx3i {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#banner .ndx3a {
+	clear: left;
+	position: relative;
+	float: left;
+	margin: 160px 0 0 580px;
+	font-size: 22px;
+	color: #9B0000;
+} 
+
+#banner .ndx3b {
+	clear: left;
+	position: relative;
+	float: left;
+	margin: 30px 0 0 540px;
+	font-size: 86px;
+	color: #9B0000;
+}                   
+
+#banner .ndx3c {
+	clear: left;
+	position: relative;
+	float: left;
+	margin: 40px 0 0 530px;
+	color: #666666;  
+	font-size: 16px;
+
+} 
+
+/* slide 4 */   
+#banner .ndx4i {
+	position: absolute;
+	top: 0;
+	left: 450px;
+}
+
+#banner .ndx4a {
+	clear: left;
+	position: relative;
+	float: left;
+	margin: 80px 0 0 150px;
+	color: #666666;	
+	font-size: 36px;
+} 
+
+#banner .ndx4b {
+	clear: left;
+	position: relative;
+	float: left;
+	margin: 35px 0 0 220px;
+	color: #9B0000;	
+	font-size: 72px;
+} 
+
+/* slide 5 */
+#banner .ndx5i {
+	position: absolute;
+	top: 0;
+	left: 450px;
+}
+
+#banner .ndx5a {
+	clear: left;
+	position: relative;
+	float: left;
+	margin: 80px 0 0 150px;
+	color: #666666;	
+	font-size: 36px;
+} 
+
+#banner .ndx5b {
+	clear: left;
+	position: relative;
+	float: left;
+	margin: 35px 0 0 220px;
+	color: #9B0000;	
+	font-size: 72px;
+}
+
+/* slide 6 */
+#banner .ndx6i {
+	position: absolute;
+	top: 30px;
+	left: 400px;
+}
+
+#banner .ndx6a {
+	clear: left;
+	position: relative;
+	float: left;
+	margin: 200px 0 0 150px;
+	color: #666666;	
+	font-size: 42px;
+} 
+
+#banner .ndx6b {
+	clear: left;
+	position: relative;
+	float: left;
+	margin: 20px 0 0 220px;
+	color: #006262;	
+	font-size: 60px;
+}

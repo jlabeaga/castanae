@@ -1,0 +1,10 @@
+# Do not remove this line or mod_rewrite rules and search engine friendly URLs will stop working
+#RewriteBase /
+# impide que se liste el contenido de las carpetas
+Options -Indexes
+# redirige http://castanae.es a http://www.castanae.es
+Options +FollowSymLinks
+RewriteEngine on
+#RewriteBase /
+RewriteCond %{HTTP_HOST} ^castanae.es [NC]
+RewriteRule ^(.*)$ http://www.castanae.es/$1 [R=301,L]

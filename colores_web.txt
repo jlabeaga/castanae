@@ -1,0 +1,6 @@
+marron_oscuro - #412A1A - RGB(65,42,26)
+marron_claro - #8E6142 - RGB(142,97,66)
+marron_muy_claro - #EFDD9B - RGB(239,221,155)
+verde - #186636 - RGB(24,102,54)
+rojo - #9B0101 - RGB(155,1,1)
+
