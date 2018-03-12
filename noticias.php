@@ -1,18 +1,6 @@
 <?php
 require_once 'init_db.php';
 
-if( isset($_REQUEST['noticia']) && $_REQUEST['noticia'] ) {
-	$noticia = $_REQUEST['noticia'];
-} else {
-    // por defecto, mostramos la última noticia
-    $query = "SELECT id FROM `noticias` WHERE fecha = (SELECT max(fecha) FROM `noticias`)";
-    $result = $mysqli->query($query) or die($mysqli->error.__LINE__);
-    if($result->num_rows > 0) {
-	    $row = $result->fetch_assoc();
-	    $noticia = $row['id'];
-    }
-}
-
 $query = "SELECT * FROM `noticias` ORDER BY fecha DESC";
 $result = $mysqli->query($query) or die($mysqli->error.__LINE__);
 ?>
@@ -20,9 +8,9 @@ $result = $mysqli->query($query) or die($mysqli->error.__LINE__);
 <!DOCTYPE HTML>
 <html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>Noticias sobre Castanae y nuevos productos y servicios. Pasteleria y reposteria artesana. Lugo, Galicia, España.</title>
+<title>Noticias sobre Castanae y nuevos productos y servicios. Pasteleria y reposteria artesana. Lugo, Galicia, Espaï¿½a.</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<meta name="description" content="Castanae es una empresa ubicada en Lugo dedicada a la producción y distribución de productos de respotería artesana confeccionados con ingredientes naturales de la máxima calidad." />
+<meta name="description" content="Castanae es una empresa ubicada en Lugo dedicada a la producciï¿½n y distribuciï¿½n de productos de respoterï¿½a artesana confeccionados con ingredientes naturales de la mï¿½xima calidad." />
 <meta name="keywords" content="castanae, reposteria, artesano, pasteles, tartas, bolleria, pastas, Lugo" />
 <meta name="author" content="Castanae" />
 <meta name="distribution" content="global" /> 
@@ -46,7 +34,7 @@ $result = $mysqli->query($query) or die($mysqli->error.__LINE__);
 
 <div id="top">
 
-<span id="toplogos"><a id="downpdf" href="catalogo/catalogo-castanae.pdf" target="_blank">DESCARGAR CATÁLOGO PDF</a></span>
+<span id="toplogos"><a id="downpdf" href="catalogo/catalogo-castanae.pdf" target="_blank">DESCARGAR CATï¿½LOGO PDF</a></span>
 
 <a id="toplogo" href="index.php"><img src="img/logo_castanae.jpg" width="30%" alt="" /></a>
 
@@ -54,7 +42,7 @@ $result = $mysqli->query($query) or die($mysqli->error.__LINE__);
  <li><a id="inicio" class="menui" href="index.php">Inicio</a></li>
  <li><a id="productos" class="menui" href="productos.php">Productos</a></li>
  <li><a id="noticias" class="menui" href="noticias.php">Noticias</a></li>
- <li><a id="quienes_somos" class="menui" href="quienes_somos.php">Quiénes somos</a></li>
+ <li><a id="quienes_somos" class="menui" href="quienes_somos.php">Quiï¿½nes somos</a></li>
  <li><a id="contacto" class="menui" href="contacto.php">Contacto</a></li>
 </ul>
 
@@ -64,8 +52,6 @@ $result = $mysqli->query($query) or die($mysqli->error.__LINE__);
 
 <div id="contenido">
 
-	<div id="news1">
-		<ul>
 <?php
 if($result->num_rows > 0) {
 
@@ -78,26 +64,21 @@ if($result->num_rows > 0) {
 		$id = $row['id'];
 		$titulo = $row['titulo'];
 		$fecha = date("d/m/Y", strtotime($row['fecha']));
+		$detalle_noticia_fecha = $fecha;
+		$detalle_noticia_titulo = $titulo;
+		$detalle_noticia_texto = $row['texto'];
 		if( $id == $noticia ) {
-			$detalle_noticia_fecha = $fecha;
-			$detalle_noticia_titulo = $titulo;
-			$detalle_noticia_texto = $row['texto'];;
 		}
-		echo '<li id="noticia' . $id . '" class="eventoinactivo"><a href="noticias.php?noticia=' . $id . '">' . $fecha . ': ' . $titulo . '</a></li>';
+		echo '<div class="noticia">';
+		echo '	<h2 style="line-height: 1.5em;">' . $detalle_noticia_fecha . ': ' . $detalle_noticia_titulo . '</h2>';
+		echo '	<div style="margin-left: 20px;">' . $detalle_noticia_texto . '</div>';
+		echo '</div>';
 	}
 }
 else {
 	echo '<li class="columna1_li"><a href="#">No hay noticias</a></li>';	
 }
 ?>
-		 </ul>
-	</div>
-
-	<div id="news2">
-		<h2 style="line-height: 1.5em;"><?php echo $detalle_noticia_fecha . ': ' . $detalle_noticia_titulo ;?></h2>
-		<div><?php echo $detalle_noticia_texto ;?></div>
-	</div>
-	
 	<div class="dclear"></div>
 
 </div>
@@ -122,7 +103,7 @@ $(document).ready(function() {
 		<p><a href="aviso_legal.php">Aviso legal</a></p>
 	</div>
 	<div id="pie3">
-		<p>Teléfono: 625 107 135</p>
+		<p>Telï¿½fono: 625 107 135</p>
 		<p>&nbsp;</p>
 		<p><script type="text/javascript">mkm('info','castanae','es','')</script></p>
 	</div>

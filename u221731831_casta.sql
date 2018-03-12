@@ -4,7 +4,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Mar 12, 2018 at 07:48 AM
+-- Generation Time: Mar 12, 2018 at 09:18 AM
 -- Server version: 10.1.24-MariaDB
 -- PHP Version: 5.2.17
 
@@ -35,7 +35,7 @@ CREATE TABLE IF NOT EXISTS `accesos` (
   `ip` varchar(100) COLLATE utf8_spanish_ci NOT NULL COMMENT 'IP de la maquina cliente',
   `observaciones` varchar(255) COLLATE utf8_spanish_ci DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci COMMENT='Registra los accesos a la pagina principal de la web' AUTO_INCREMENT=16026 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci COMMENT='Registra los accesos a la pagina principal de la web' AUTO_INCREMENT=16027 ;
 
 --
 -- Dumping data for table `accesos`
@@ -16107,7 +16107,8 @@ INSERT INTO `accesos` (`id`, `timestamp`, `session_id`, `url`, `ip`, `observacio
 (16022, '2018-03-11 23:05:22', '5b07165066cc9eeb280fa9a6d6104aef', '/', '66.249.65.159', 'acceso la pagina principal index.php'),
 (16023, '2018-03-11 23:39:35', '693e6eb83294f223362f293f3f65638e', '/index.php', '213.143.50.24', 'acceso la pagina principal index.php'),
 (16024, '2018-03-12 06:50:32', 'fd959898077c1b91571a0eccab586261', '/', '66.249.65.158', 'acceso la pagina principal index.php'),
-(16025, '2018-03-12 07:40:15', 'b3fd04ed76557657bee4773bfb0157a5', '/', '66.249.66.76', 'acceso la pagina principal index.php');
+(16025, '2018-03-12 07:40:15', 'b3fd04ed76557657bee4773bfb0157a5', '/', '66.249.66.76', 'acceso la pagina principal index.php'),
+(16026, '2018-03-12 08:37:19', '693e6eb83294f223362f293f3f65638e', '/', '213.143.50.116', 'acceso la pagina principal index.php');
 
 -- --------------------------------------------------------
 
@@ -16173,12 +16174,12 @@ CREATE TABLE IF NOT EXISTS `noticias` (
 INSERT INTO `noticias` (`id`, `titulo`, `texto`, `fecha`) VALUES
 (1, 'Nuevo producto: la Rosca de Castaña', '<p>Castanae lanza su producto estrella</p>\r\n<p>El lanzamiento no ha dejado a nadie indiferente, todo el concejo de O Corgo esperaba el evento con los dientes afilados.</p>\r\n<p>Ñam, ñam ... que rica está!</p>\r\n', '2014-06-01'),
 (2, 'Castanae lanza su web', '<p>Por fín parece que Castanae lanza su web!</p>\r\n<p>Les ha costado un poco más de lo previsto por unos pequeños incovenientes de última hora, pero ya parece que todo está en marcha.</p>\r\n<p>Buena suerte a los valientes!!</p>\r\n', '2014-06-07'),
-(3, 'Ofertas para el mes de Julio', '<p>En este mes de Julio hemos sacado unas ofertas irresistibles</p>\r\n<p>Un 20% de descuento en los siguientes productos:</p>\r\n<p>- tarta de zanahiria</p>\r\n<p>- magdalenas de nuez y chocolate</p>\r\n<p>- torta de naranja</p>\r\n', '2014-06-14'),
-(4, 'Castanae en la feria agroalimentaria FAPEA', '<p>Castanae estará presente en la Feria Agroalimentaria de Productos Ecológicos de Asturias (FAPEA)</p>\r\n<p>Incluiremos algunos de nuestros productos en la degustación de la feria: <a href="http://www.fapea.net/degustacion.php">http://www.fapea.net/degustacion.php</a>.</p>:\r\n<p>&nbsp;</p>\r\n<p>EMPLAZAMIENTO DE FAPEA</p>\r\n<p>Recinto ferial de Ables. Llanera. Asturias.</p>\r\n<p>&nbsp;</p>\r\n<p>FECHAS</p>\r\n<p>16, 17 y 18 de Agosto de 2013 (viernes, sábado y domingo), con el siguiente horario: sábado y domingo de 11:00h a 20:00h</p>\r\n<p>&nbsp;</p>\r\n<p>INFORMACION SOBRE FAPEA</p>\r\n<p>El Ayuntamiento de Llanera, a través la Agencia de Desarrollo Local de Llanera, puede facilitar información sobre la Feria Agroalimentaria de Productos Ecológicos de Asturias. Teléfono: 985.77.00.07 (extensiones 184 / 185 / 188). Dirección de correo electrónico: adl@llanera.es</p>\r\n<p>&nbsp;</p>\r\n<p>INFRAESTRUCTURA</p>\r\n<p>Se instalarán dos carpas unidas (una que albergará a los productores asturianos y otra para los participantes de otras comunidades autónomas) con una superficie total de 1200 m2 aproximadamente, en una parcela colindante de recinto ferial permanente, donde se montarán stands de madera de 2 x 0,8 m de tipo individual, construidos en madera con tejadillos entoldados. Cada stand tendrá un cartel indicativo de los datos del productor que lo utiliza. El precio del stand será gratuito para todos los operadores participantes. </p>\r\n', '2014-08-16'),
-(5, 'Charla Emprendedora Castanae en LANZADERA LUGO 2016', '<p>Hoy nos ha visitado Anjhara Gómez,creadora de Castanae repostería artesana, para contarnos su historia de emprendimiento con una gran energía positiva <a href="http://www.lanzaderasdeempleo.es/charla-emprendedora-castanae">Lanzadera Lugo 2016</a>.</p>', '2016-10-25'),
-(6, 'Castanae en TVG', '<p>Unha moza emprendedora deixa a avogacía para cociñar doces de castaña nunha aldea do Corgo <a href="http://www.crtvg.es/informativos/unha-moza-emprendedora-deixa-a-avogacia-para-cocinar-doces-de-castana-nunha-aldea-do-corgo-2606469">TVG</a>', '2017-01-05'),
-(7, 'Anjhara en La Voz de Galicia', '<p>La abogada que acabó colgando la toga para dedicarse a hacer dulces</p>\r\n<p>Los polvorones que hace en O Corgo Anjhara Gómez se vendieron esta Navidad en las tiendas en menos de tres semanas</p>\r\n<p><a href="https://www.lavozdegalicia.es/noticia/lugo/o-corgo/2018/01/14/abogada-acabo-colgando-toga-dedicarse-dulces/0003_201801L14C12995.htm">Leer más</a></p>', '2018-01-14'),
-(8, 'Entrevista en TVG', '<p>Anjhara trocou a avogacía pola repostería artesanal</p>\r\n<p><a href="http://www.crtvg.es/tvg/a-carta/anjhara-trocou-a-sua-carreira-de-avogada-pola-reposteria-artesanal">Ver la entrevista completa</a>\r\n', '2018-02-13');
+(3, 'Ofertas para el mes de Julio', '<p>En este mes de Julio hemos sacado unas ofertas irresistibles</p>\n<p>Un 20% de descuento en los siguientes productos:</p>\n<ul>\n<li>bica mantecada</li>\n<li>magdalenas de nuez y chocolate</li>\n</ul>\n', '2014-06-14'),
+(4, 'Castanae en la feria agroalimentaria FAPEA', '<p>Castanae estará presente en la Feria Agroalimentaria de Productos Ecológicos de Asturias (FAPEA)</p>\n<p>Incluiremos algunos de nuestros productos en la degustación de la feria: <a target="_new" href="http://www.fapea.net/degustacion.php">http://www.fapea.net/degustacion.php</a>.</p>:\n<p>EMPLAZAMIENTO DE FAPEA</p>\n<p>Recinto ferial de Ables. Llanera. Asturias.</p>\n<p>FECHAS</p>\n<p>16, 17 y 18 de Agosto de 2013 (viernes, sábado y domingo), con el siguiente horario: sábado y domingo de 11:00h a 20:00h</p>\n<p>INFORMACION SOBRE FAPEA</p>\n<p>El Ayuntamiento de Llanera, a través la Agencia de Desarrollo Local de Llanera, puede facilitar información sobre la Feria Agroalimentaria de Productos Ecológicos de Asturias. Teléfono: 985.77.00.07 (extensiones 184 / 185 / 188). Dirección de correo electrónico: adl@llanera.es</p>\n<p>INFRAESTRUCTURA</p>\n<p>Se instalarán dos carpas unidas (una que albergará a los productores asturianos y otra para los participantes de otras comunidades autónomas) con una superficie total de 1200 m2 aproximadamente, en una parcela colindante de recinto ferial permanente, donde se montarán stands de madera de 2 x 0,8 m de tipo individual, construidos en madera con tejadillos entoldados. Cada stand tendrá un cartel indicativo de los datos del productor que lo utiliza. El precio del stand será gratuito para todos los operadores participantes. </p>\n', '2014-08-16'),
+(5, 'Charla Emprendedora Castanae en LANZADERA LUGO 2016', '<p>Hoy nos ha visitado Anjhara Gómez,creadora de Castanae repostería artesana, para contarnos su historia de emprendimiento con una gran energía positiva <a target="_new" href="http://www.lanzaderasdeempleo.es/charla-emprendedora-castanae">Lanzadera Lugo 2016</a>.</p>', '2016-10-25'),
+(6, 'Castanae en TVG', '<p>Unha moza emprendedora deixa a avogacía para cociñar doces de castaña nunha aldea do Corgo <a target="_new" href="http://www.crtvg.es/informativos/unha-moza-emprendedora-deixa-a-avogacia-para-cocinar-doces-de-castana-nunha-aldea-do-corgo-2606469">TVG</a>', '2017-01-05'),
+(7, 'Anjhara en La Voz de Galicia', '<p>La abogada que acabó colgando la toga para dedicarse a hacer dulces</p>\n<p>Los polvorones que hace en O Corgo Anjhara Gómez se vendieron esta Navidad en las tiendas en menos de tres semanas</p>\n<p><a target="_new" href="https://www.lavozdegalicia.es/noticia/lugo/o-corgo/2018/01/14/abogada-acabo-colgando-toga-dedicarse-dulces/0003_201801L14C12995.htm">Leer más</a></p>', '2018-01-14'),
+(8, 'Entrevista en TVG', '<p>Anjhara trocou a avogacía pola repostería artesanal</p>\n<p><a target="_new" href="http://www.crtvg.es/tvg/a-carta/anjhara-trocou-a-sua-carreira-de-avogada-pola-reposteria-artesanal">Ver la entrevista completa</a>\n', '2018-02-13');
 
 -- --------------------------------------------------------
 
