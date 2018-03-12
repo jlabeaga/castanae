@@ -6,7 +6,7 @@
 <head>
 <title>Castanae: Reposteros por vocación. Lugo, Galicia, España.</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<meta name="description" content="Castanae es una empresa ubicada en Lugo dedicada a la producción y distribución de productos de respotería artesana confeccionados con ingredientes naturales de la máxima calidad." />
+<meta name="description" content="Castanae es una empresa ubicada en Lugo dedicada a la producciï¿½n y distribuciï¿½n de productos de respoterï¿½a artesana confeccionados con ingredientes naturales de la mï¿½xima calidad." />
 <meta name="keywords" content="castanae, reposteria, artesano, pasteles, tartas, bolleria, pastas, Lugo" />
 <meta name="author" content="Castanae" />
 <meta name="distribution" content="global" /> 
@@ -32,7 +32,7 @@
 
 <div id="top">
 
-<span id="toplogos"><a id="downpdf" href="catalogo/catalogo-castanae.pdf" target="_blank">DESCARGAR CATÁLOGO PDF</a></span>
+<span id="toplogos"><a id="downpdf" href="catalogo/catalogo-castanae.pdf" target="_blank">DESCARGAR CATï¿½LOGO PDF</a></span>
 
 <a id="toplogo" href="index.php"><img src="img/logo_castanae.jpg" width="30%" alt="" /></a>
 
@@ -51,7 +51,7 @@
 <div id="contenido">
 
 <!--
-<p id="navitop">Está usted en: Quiénes somos</p>
+<p id="navitop">Estï¿½ usted en: Quiï¿½nes somos</p>
 -->
 
 <h2 style="margin:30px 0 0 0;">Anjhara Gómez Rodríguez</h2>
@@ -73,9 +73,6 @@
 		</div>
 		<div class="oneByOne_item">
 			<img src="fotos/polvorones2.jpg" class="ndx2i"/>
-		</div>
-		<div class="oneByOne_item">
-			<img src="fotos/biquinos2.jpg" class="ndx2i"/>
 		</div>
 		<div class="oneByOne_item">
 			<img src="fotos/polvorones3.jpg" class="ndx2i"/>
@@ -142,7 +139,7 @@ $(document).ready(function() {
 	<div id="pie1">
 		<p>&nbsp;</p>
 		<p>&nbsp;</p>
-		<p style="padding: 0px;"><a href="https://www.facebook.com/castanae.es">https://www.facebook.com/castanae.es</a></p>
+		<p style="padding: 0px;"><a target="_new" href="https://www.facebook.com/castanae.es">https://www.facebook.com/castanae.es</a></p>
 	</div>
 	<div id="pie2">
 		<p>Castanae</p>
@@ -151,7 +148,7 @@ $(document).ready(function() {
 		<p><a href="aviso_legal.php">Aviso legal</a></p>
 	</div>
 	<div id="pie3">
-		<p>Teléfono: 625 107 135</p>
+		<p>Telï¿½fono: 625 107 135</p>
 		<p>&nbsp;</p>
 		<p><script type="text/javascript">mkm('info','castanae','es','')</script></p>
 	</div>

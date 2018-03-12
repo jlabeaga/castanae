@@ -103,11 +103,6 @@ $result_productos = $mysqli->query($query_productos) or die($mysqli->error.__LIN
 				<span class="ndx2b">Con los mejores productos naturales</span>
 			</div>
 			<div class="oneByOne_item">
-				<img src="fotos/biquinos2.jpg" class="ndx2i"/>
-				<span class="ndx2a">Pasteler&iacute;a y reposter&iacute;a artesana</span>			
-				<span class="ndx2b">Con los mejores productos naturales</span>
-			</div>
-			<div class="oneByOne_item">
 				<img src="fotos/polvorones3.jpg" class="ndx2i"/>
 				<span class="ndx2a">Pasteler&iacute;a y reposter&iacute;a artesana</span>			
 				<span class="ndx2b">Con los mejores productos naturales</span>
@@ -236,7 +231,7 @@ $(document).ready(function() {
 	<div id="pie1">
 		<p>&nbsp;</p>
 		<p>&nbsp;</p>
-		<p style="padding: 0px;"><a href="https://www.facebook.com/castanae.es">https://www.facebook.com/castanae.es</a></p>
+		<p style="padding: 0px;"><a target="_new" href="https://www.facebook.com/castanae.es">https://www.facebook.com/castanae.es</a></p>
 	</div>
 	<div id="pie2">
 		<p>Castanae</p>

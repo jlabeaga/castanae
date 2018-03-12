@@ -86,7 +86,7 @@ $(document).ready(function() {
 	<div id="pie1">
 		<p>&nbsp;</p>
 		<p>&nbsp;</p>
-		<p style="padding: 0px;"><a href="https://www.facebook.com/castanae.es">https://www.facebook.com/castanae.es</a></p>
+		<p style="padding: 0px;"><a target="_new" href="https://www.facebook.com/castanae.es">https://www.facebook.com/castanae.es</a></p>
 	</div>
 	<div id="pie2">
 		<p>Castanae</p>
