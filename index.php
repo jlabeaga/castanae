@@ -219,7 +219,7 @@ $(document).ready(function() {
 		easeType: 'fadeInRightBig',
 		showArrow: true,
 		showButton: true,
-		slideShowDelay: 3000,
+		slideShowDelay: 5000,
 		slideShow: true
 	});
 /*

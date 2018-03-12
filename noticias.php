@@ -8,7 +8,7 @@ $result = $mysqli->query($query) or die($mysqli->error.__LINE__);
 <!DOCTYPE HTML>
 <html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>Noticias sobre Castanae y nuevos productos y servicios. Pasteleria y reposteria artesana. Lugo, Galicia, Espaï¿½a.</title>
+<title>Noticias sobre Castanae y nuevos productos y servicios. Pasteleria y reposteria artesana. Lugo, Galicia, España.</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <meta name="description" content="Castanae es una empresa ubicada en Lugo dedicada a la producciï¿½n y distribuciï¿½n de productos de respoterï¿½a artesana confeccionados con ingredientes naturales de la mï¿½xima calidad." />
 <meta name="keywords" content="castanae, reposteria, artesano, pasteles, tartas, bolleria, pastas, Lugo" />
@@ -67,8 +67,6 @@ if($result->num_rows > 0) {
 		$detalle_noticia_fecha = $fecha;
 		$detalle_noticia_titulo = $titulo;
 		$detalle_noticia_texto = $row['texto'];
-		if( $id == $noticia ) {
-		}
 		echo '<div class="noticia">';
 		echo '	<h2 style="line-height: 1.5em;">' . $detalle_noticia_fecha . ': ' . $detalle_noticia_titulo . '</h2>';
 		echo '	<div style="margin-left: 20px;">' . $detalle_noticia_texto . '</div>';
