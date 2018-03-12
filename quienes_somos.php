@@ -32,7 +32,7 @@
 
 <div id="top">
 
-<span id="toplogos"><a id="downpdf" href="catalogo/catalogo-castanae.pdf" target="_blank">DESCARGAR CATï¿½LOGO PDF</a></span>
+<span id="toplogos"><a id="downpdf" href="catalogo/catalogo-castanae.pdf" target="_blank">DESCARGAR CATÁLOGO PDF</a></span>
 
 <a id="toplogo" href="index.php"><img src="img/logo_castanae.jpg" width="30%" alt="" /></a>
 
