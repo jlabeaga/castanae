@@ -40,6 +40,22 @@
   <changefreq>monthly</changefreq>
 </url>
 <url>
+  <loc>http://www.castanae.es/noticias.php?noticia=8</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://www.castanae.es/noticias.php?noticia=7</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://www.castanae.es/noticias.php?noticia=6</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://www.castanae.es/noticias.php?noticia=5</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
   <loc>http://www.castanae.es/noticias.php?noticia=4</loc>
   <changefreq>monthly</changefreq>
 </url>
@@ -64,15 +80,15 @@
   <changefreq>monthly</changefreq>
 </url>
 <url>
-  <loc>http://www.castanae.es/producto.php?cod=tarta_chocolate</loc>
+  <loc>http://www.castanae.es/producto.php?cod=bica</loc>
   <changefreq>monthly</changefreq>
 </url>
 <url>
-  <loc>http://www.castanae.es/producto.php?cod=pastel_zanahoria</loc>
+  <loc>http://www.castanae.es/producto.php?cod=polvorones</loc>
   <changefreq>monthly</changefreq>
 </url>
 <url>
-  <loc>http://www.castanae.es/producto.php?cod=pastel_naranja</loc>
+  <loc>http://www.castanae.es/producto.php?cod=magdalenas</loc>
   <changefreq>monthly</changefreq>
 </url>
 <url>
