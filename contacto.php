@@ -45,9 +45,9 @@
 
 <div id="contenido">
 
-	<h2 style="margin:30px 0 0 0;">Contacto</h2>
+	<h2 style="margin:30px 0 0;">Contacto</h2>
 
-	<div id="contact1">
+	<div id="contact1" style="padding-right:30px;">
 	<p>Puede ponerse en contacto con nosotros por cualquiera de los siguientes medios:</p>
 	<h3><img class="iconocon" src="img/icono-direccion.png" width="50" height="50" alt="" style="padding-top: 10px; padding-bottom: 10px;">Dirección:</h3>
 	<p>Anjhara G&oacute;mez<br>San Fiz de Paradela, Vilanova 18<br>27365 O Corgo - Lugo</p>
@@ -58,16 +58,9 @@
 	<a target="_new" href="https://www.facebook.com/castanae.es">https://www.facebook.com/castanae.es</a></p>
 	</div>
 
-	<div id="contact2">
+	<div id="contact2" align="center">
 
-	<form method="post" name="fcontacto" id="fcontacto" action="contactar.php" onsubmit="return validate()">
-	<p>También puede ponerse en contacto con nosotros rellenando el siguiente formulario:</p>
-	<p><label>Nombre y apellidos*</label><input class="ancho310" type="text" name="nombre" id="nombre" size="50" maxlength="75"></p>
-	<p><label>E-mail*</label><input class="ancho310" type="text" name="email" id="email" size="50" maxlength="75"></p>
-	<p><label>Teléfono</label><input class="ancho310" type="text" name="telefono" id="telefono" size="15" maxlength="25"></p>
-	<p><label>Comentarios</label><textarea class="ancho310" name="comentarios" id="comentarios" rows="4"></textarea></p>
-	<p class="centro"><button><strong>Enviar</strong></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*campos obligatorios</p>
-	</form>
+	<img src="fotos/polvorones6.jpg"/>
 
 	</div>
 	<div class="dclear"></div>
